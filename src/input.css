@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family:'iran_Bold';
+      src: url(fonts/IRANSansXFaNum-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family:'iran_Light';
+        src: url(fonts/IRANSansXFaNum-Light.ttf) format('truetype');
+      }  
+}
