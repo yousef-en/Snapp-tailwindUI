@@ -8,9 +8,12 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
-  "author": "",
+  "author": "yousef hosseini",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "keen-slider": "^6.8.6"
   }
 }

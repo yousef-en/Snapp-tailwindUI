@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="rtl" class="">
   <head>
@@ -7,6 +8,10 @@
     <link rel="stylesheet" href="./output.css" />
     <link as="image" rel="preload" fetchpriority="high" href="">
     <link rel="shortcut icon" href="./img/Untitled.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="/keen-slider.min.css"
+  />
   </head>
   <body class="dark:bg-bg_dark">
 
@@ -424,15 +429,16 @@
     
     <!-- slider   -->
     <div class="md:w-3/4 relative w-11/12 rounded-lg mx-auto my-12 overflow-hidden">
-    <div class="slides ">
         
-       <img src="./img/slider/Club.jpg" width="100%" class="object-cover md:h-auto h-[200px] item active block"  id="slide1" alt=""> 
-       
+       <img src="./img/slider/Club.jpg" width="100%" class="object-cover md:h-auto h-[200px]" alt=""> 
+
     <div class=" absolute bottom-4 flex justify-center backdrop-blur-sm w-full bg-[rgba(255,255,255,.3)] py-1 ">
-        <span onclick="setSlide('slide1' , 1)" class="cursor-pointer size-[10px] rounded-full bg-black mx-1 "></span>
-        <span onclick="setSlide('slide2' , 2)" class="cursor-pointer size-[10px] rounded-full bg-white mx-1 "></span>
-        <span onclick="setSlide('slide3' , 3)" class="cursor-pointer size-[10px] rounded-full bg-white mx-1 "></span>
-       </div>
+    
+        <button class=" cursor-pointer size-[10px] rounded-full bg-black mx-1 "></button>
+    
+        <button class=" cursor-pointer size-[10px] rounded-full bg-white mx-1 "></button>
+    
+        <button class=" cursor-pointer size-[10px] rounded-full bg-white mx-1 "></button>
     </div>
 
         
@@ -442,9 +448,10 @@
 
     <div class="w-full flex lg:flex-row flex-col">
 
-            <div class="w-full xl:w-1/2 xl:h-auto">
+            <div class="w-full xl:w-1/2 xl:h-auto ">
                 <img src="./img/slider/super-app.jpg" class="object-cover w-full xl:h-auto h-[215px]" alt="">
             </div>
+          
 
             <div class="w-full xl:w-1/2 text-right flex justify-start">
                 <div class="w-full xl:w-5/6 mt-6 px-9">
@@ -689,7 +696,6 @@
           
         
     <script src="./dark mode & menu.js"></script>
-
 
   </body>
 </html>
